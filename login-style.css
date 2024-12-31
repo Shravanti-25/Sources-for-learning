@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(home1.jpeg);
+}
+.wrapper
+{
+    width:420px;
+    background-color: rgb(156, 113, 63,0.80);
+    backdrop-filter: blur(0.5%);
+    /*background:rgba(160, 87, 5, 0.842);*/
+    color:#000;
+    padding: 30px 40px;
+    border-radius: 20px;       
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}    
+.wrapper .input-box{
+    position:relative;
+    width:100%;
+    height: 50px;
+   /* background:rgba(247, 203, 153, 0.925);*/
+    margin:30px 0;
+}
+.input-box input{
+    width:100%;
+    height:100%;
+    padding-left: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:2px solid black;
+    border-radius: 40px;
+    font-size: 15px;
+    color:black;
+}
+.input-box input::placeholder{
+    padding-left: 10px;
+    padding-right: 10px;
+    color:black;
+}
+
+.input-box i{
+    position:absolute;
+    right: 10px;
+    color:black;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin:10px 0 15px;
+}
+.remember label input{
+    color:white;
+    margin-right: 3px;
+    font-weight:bold;
+}
+.remember a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.button{
+    width:100%;
+    height: 50px;
+    background:black ;
+    color:white;
+    border: none;
+    outline:none;
+    border-radius: 45px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight: 500;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+}
+.register
+{
+    font: size 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.register p a{
+    color:#000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.register p a:hover
+{
+    text-decoration: underline;
+}
+
+
+    
